@@ -39,3 +39,28 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+button{
+  padding: 20px 40px;
+  background-color: brown;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+
+button:hover{
+  background-color: aqua;
+  color: brown;
+  transition: all 0.8s ease;
+  transform: translateY(-5px);
+}
